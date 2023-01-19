@@ -12,23 +12,23 @@
   "author": {
     "name": "Adobe Systems Inc."
   },
-  "homepage": "https://github.com/adobe/aem-react-core-wcm-components-spa/blob/master/README.md",
+  "homepage": "https://github.com/abhishekdixitadobe/aem-react-core-wcm-components-spa/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adobe/aem-react-core-wcm-components-spa"
+    "url": "https://github.com/abhishekdixitadobe/aem-react-core-wcm-components-spa"
   },
   "peerDependencies": {
-    "aem-react-editable-components": "file:../aem-react-editable-components-master",
-    "aem-spa-component-mapping": "file:../aem-spa-component-mapping",
-    "aem-spa-page-model-manager": "file:../aem-spa-page-model-manager",
+    "@adobe/aem-react-editable-components": "*",
+    "@adobe/aem-spa-component-mapping": "^1.1.1",
+    "@adobe/aem-spa-page-model-manager": "^1.3.11",
     "next": "^13.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "aem-react-editable-components": "file:../aem-react-editable-components-master",
-    "aem-spa-component-mapping": "file:../aem-spa-component-mapping",
-    "aem-spa-page-model-manager": "file:../aem-spa-page-model-manager",
+   "@adobe/aem-react-editable-components": "*",
+    "@adobe/aem-spa-component-mapping": "^1.1.1",
+    "@adobe/aem-spa-page-model-manager": "^1.3.11",
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.4",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
